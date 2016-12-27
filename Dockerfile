@@ -4,7 +4,7 @@ MAINTAINER Leandro Pineda <leandropineda.lp@gmail.com>
 ENV bioconductor_url="http://bioconductor.org/packages/3.0/bioc/src/contrib/"
 ENV bioconductor_data_url="http://www.bioconductor.org/packages/3.0/data/annotation/src/contrib/"
 
-ENV http_proxy="http://proxy.unl.edu.ar:8000"
+#ENV http_proxy="http://proxy.unl.edu.ar:8000"
 
 RUN echo deb http://cran.r-project.org/bin/linux/ubuntu trusty/ > /etc/apt/sources.list.d/r.list
 RUN apt-key adv --keyserver keyserver.ubuntu.com --recv-keys E084DAB9
